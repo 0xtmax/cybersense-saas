@@ -29,7 +29,7 @@ const Pricing = () => {
     },
     {
       name: "Premium",
-      price: "$99",
+      price: "$89",
       period: "per month",
       description: "Enhanced monitoring and intelligence for growing security teams",
       features: [
