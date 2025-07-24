@@ -1,0 +1,17 @@
+.hero-bg-blur {
+  filter: blur(8px) brightness(1.1) saturate(1.2);
+  opacity: 0.85;
+}
+
+.hero-bg-glow {
+  box-shadow: 0 0 80px 30px hsl(195 100% 60% / 0.25), 0 0 160px 60px hsl(270 100% 70% / 0.15);
+}
+
+@media (max-width: 768px) {
+  .hero-bg-blur {
+    filter: blur(4px) brightness(1.05) saturate(1.1);
+  }
+  .hero-bg-glow {
+    box-shadow: 0 0 40px 10px hsl(195 100% 60% / 0.18);
+  }
+}
